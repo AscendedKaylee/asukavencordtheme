@@ -1,0 +1,39 @@
+/*Emoji, Gif and SoundBoard Picker Popup*/
+    #app-mount .contentWrapper_af5dbb,
+    #app-mount .animatorLeft_f88ae3 .picker_cd703d,
+    #app-mount .animatorLeft_f88ae3 .header_c6ee36,
+    #app-mount .animatorLeft_f88ae3 .emojiPicker_c6ee36 {
+        background-color: var(--secondary3-colour); 
+    }
+    #app-mount .inspector_c3120f,
+    #app-mount .inspector_c3120f,
+    #app-mount .soundButton_f40049:hover {
+        background-color: var(--secondary2-colour);
+    }
+
+    #app-mount .contentWrapper_af5dbb .categoryFadeBlurple_af1167 {background-color: var(--primary3-colour);}
+
+    #app-mount .contentWrapper_af5dbb .result_bad108:hover:after {box-shadow: 0 0 2px 2px var(--primary1-colour);}
+
+    #app-mount .contentWrapper_af5dbb .result_bad108[style*="background-color: var(--premium-tier-1"] {background-color: var(--primary3-colour)!important;}
+    #app-mount .contentWrapper_af5dbb .result_bad108[style*="background-color: rgb(146, 154, 250);"] {background-color: var(--primary2-colour)!important}
+
+/*TopBar*/
+    #app-mount .typeWindows_a934d8 {
+        background-color: var(--secondary3-colour); 
+        border-bottom: 2px solid var(--primary3-colour); 
+        height: 30px;
+        margin: 0px;
+    }
+    #app-mount .typeWindows_a934d8:after {
+        content: "GGO Kirito v1.3.7 By VaporousCreeper";
+        color: rgb(255,255,255,0.5);
+        font-weight: 500;
+
+        position: absolute;
+        top: 8px;
+        left: 43.2%;
+    }
+
+    #app-mount .wordmark_a934d8 {top: 3.3px;}
+    #app-mount .winButton_a934d8 {top: 2px;}
